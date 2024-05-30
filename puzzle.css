@@ -1,0 +1,30 @@
+/* 문서 전체에 적용될 기본 스타일 설정 */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* 기본 폰트 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    color: #0c67ae; /* 기본 텍스트 색상 설정 */
+}
+
+/* 제목 이미지 스타일 설정 */
+#title {
+    height: 150px; /* 이미지 높이 설정 */
+    width: 400px; /* 이미지 너비 설정 */
+}
+
+/* 퍼즐 보드 스타일 설정 */
+#board {
+    width: 360px; /* 보드 너비 설정 */
+    height: 360px; /* 보드 높이 설정 */
+    background-color: lightblue; /* 보드 배경색 설정 */
+    border: 10px solid #0c67ae; /* 보드 테두리 설정 */
+    margin: 0 auto; /* 자동으로 여백 설정하여 중앙에 배치 */
+    display: flex; /* 플렉스박스로 설정하여 아이템 정렬 */
+    flex-wrap: wrap; /* 아이템이 넘치면 다음 줄로 이동 */
+}
+
+/* 퍼즐 타일 이미지 스타일 설정 */
+#board img {
+    width: 118px; /* 이미지 너비 설정 */
+    height: 118px; /* 이미지 높이 설정 */
+    border: 1px solid #0c67ae; /* 이미지 테두리 설정 */
+}

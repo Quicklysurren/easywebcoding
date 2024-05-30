@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 문서의 문자 인코딩을 UTF-8로 설정 -->
+        <meta charset="UTF-8">
+        <!-- 뷰포트 설정: 화면 크기에 맞게 조정 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 문서의 제목 설정 -->
+        <title>Slide Puzzle</title>
+        <!-- 외부 CSS 파일 연결 -->
+        <link rel="stylesheet" href="puzzle.css">
+        <!-- 외부 JavaScript 파일 연결, HTML 로드 후 실행되도록 defer 속성 사용 -->
+        <script src="puzzle.js" defer></script>
+    </head>
+    <body>
+        <!-- 제목 이미지를 표시 -->
+        <img id="title" src="logo.PNG" alt="Puzzle Title">
+        <!-- 퍼즐 보드를 위한 div 요소 -->
+        <div id="board"></div>
+        <!-- 턴 수를 표시할 h1 요소 -->
+        <h1>Turns: <span id="turns">0</span></h1>
+    </body>
+</html>
